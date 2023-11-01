@@ -1,13 +1,15 @@
+'use client'
+import GlobalStyle from './styles/global'
+
 export default function RootLayout({
-  children,
+  children
 }: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body>
-        {children}
-      </body>
+    <html>
+      <GlobalStyle />
+      <body>{children}</body>
     </html>
   )
 }
