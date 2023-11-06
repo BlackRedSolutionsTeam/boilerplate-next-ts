@@ -3,21 +3,15 @@
   "short_name": "my-pwa-app",
   "icons": [
     {
-      "src": "/public/svg/next.svg",
+      "src": "./svg/next.svg",
       "sizes": "192x192",
       "type": "image/svg",
       "purpose": "maskable"
     },
     {
-      "src": "/public/svg/vercel.svg",
+      "src": "./svg/vercel.svg",
       "sizes": "192x192",
       "type": "image/svg",
-      "purpose": "maskable"
-    },
-    {
-      "src": "/public/img/favicon.png",
-      "sizes": "192x192",
-      "type": "image/png",
       "purpose": "maskable"
     }
   ],
