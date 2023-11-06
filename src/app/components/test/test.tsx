@@ -4,7 +4,7 @@ import TestComponent from '.'
 
 describe('<TestComponent />', () => {
   it('should render \\"Hello Test!\\"', () => {
-    render(<TestComponent />)
+    render(<TestComponent title="Hello Test!" color="red" />)
     expect(
       screen.getByRole('heading', { name: /Hello Test!/i })
     ).toBeInTheDocument()
