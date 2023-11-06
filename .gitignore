@@ -16,6 +16,21 @@
 # production
 /build
 
+# pwa
+public/sw.js
+public/workbox-*.js
+
+# Yarn 3 files
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.yarn/cache
+.yarn/install-state.gz
+
 # misc
 .DS_Store
 *.pem
